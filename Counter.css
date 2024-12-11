@@ -1,0 +1,46 @@
+h1{
+    background-color: blueviolet;
+    color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/011/883/333/small/pink-purple-and-blue-gradient-abstract-blank-clean-colors-cheerful-and-simple-style-suitable-for-background-banner-flyer-pamphlet-wallpaper-or-decor-free-vector.jpg') ;
+    color: rgba(211, 248, 4, 0.978);
+    height: 40px;
+    width: 100px;
+    padding: 2px;
+    border-radius: 90px;
+}
+h2{
+     color:chocolate ;
+
+}
+body{
+    background-image: url('https://png.pngtree.com/background/20210715/original/pngtree-purple-pink-watercolor-gradient-background-picture-image_1284319.jpg');
+}
+.container.show-animation {
+    animation: scale-up 2s ease-in-out;
+  }
+  
+  .party-message {
+    color: gold;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 0px 0px 10px rgba(255, 215, 0, 0.8);
+  }
+  
+  @keyframes scale-up {
+    0% {
+      transform: scale(1);
+      background-color: #ff6666;
+    }
+    50% {
+      transform: scale(1.5);
+      background-color: #66ff66;
+    }
+    100% {
+      transform: scale(1);
+      background-color: #6666ff;
+    }
+  }
